@@ -1,0 +1,50 @@
+*{
+    box-sizing: border-box;
+}
+
+main { 
+    min-height: 80vh;
+    background-image: url("../images/data.jpg");
+    background-size: 50% 90%;
+    background-repeat: no-repeat;
+    background-position: right;
+    padding: 50px 40px;
+    
+}
+
+h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 3rem;
+}
+
+p, 
+.navbar-light .navbar-nav .nav-link {
+    color: rgb(98,98,98);
+}
+
+.nav-item {
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.cta-btn {
+    background-image: linear-gradient(to right, rgb(86, 137, 220), rgb(197, 101, 173));
+    color: white !important;
+    border-radius: 25px;
+    padding: .5rem 20px;
+}
+
+@media (max-width: 600px) {
+    main { 
+        background-size: 100% 90%;
+        background-position: center;
+    }
+
+    .row {
+        color: white;
+    }
+
+    p {
+        color: white;
+    }
+}
